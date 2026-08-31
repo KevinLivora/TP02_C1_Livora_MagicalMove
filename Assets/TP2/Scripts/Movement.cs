@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private KeyCode moveLeft = KeyCode.A;
     [SerializeField] private KeyCode rotationRight = KeyCode.E;
     [SerializeField] private KeyCode rotationLeft = KeyCode.Q;
-    [SerializeField] private float moveSpeed = 2f;
+    [SerializeField] public float moveSpeed = 1f;
 
     private SpriteRenderer spriteRenderer;
 
